@@ -28,7 +28,7 @@ Clone the repository and install the dependencies using `pip`:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/evtx-to-json.git](https://github.com/yourusername/evtx-to-json.git)
+git clone https://github.com/sto-yan06/evtx2json.git
 cd evtx-to-json
 
 # Install dependencies
