@@ -29,7 +29,7 @@ Clone the repository and install the dependencies using `pip`:
 ```bash
 # Clone the repository
 git clone https://github.com/sto-yan06/evtx2json.git
-cd evtx-to-json
+cd evtx2json
 
 # Install dependencies
 pip install -r requirements.txt
@@ -40,14 +40,14 @@ pip install -r requirements.txt
 1. Save to a JSON file
 
 ```bash
-python convert.py System.evtx -o system_logs.json
+python evtx2json.py System.evtx -o system_logs.json
 
 ```
 
 2. Stream to Terminal
 
 ```bash
-python convert.py Security.evtx
+python evtx2json.py Security.evtx
 ```
 
 ## Troubleshooting
